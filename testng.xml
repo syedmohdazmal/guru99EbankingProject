@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="managerid" value="mngr439256" />
+	<parameter name="password" value="qApEnum" />
+	<parameter name="Invalidmanagerid" value="mngr4392563738" />
+	<parameter name="Invalidpassword" value="qApEnumrtvvf" />
+	
+	<test thread-count="5" name="SanityTest">
+		<classes>
+			<!-- <class name="ebankingLoginTest.EBankingLoginTest" />
+			<class name="ebankingPracticeTest.AddNewCustomerTest" /> -->
+			<class name="ebankingPracticeTest.NewAccountTest" />
+			<class name="ebankingPracticeTest.WithdrawalTest" />
+			<class name="ebankingPracticeTest.DepositTest" />
+			<class name="ebankingPracticeTest.FundTransferTest" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="RegressionTest">
+		<classes>
+			<class name="ebankingPracticeTest.EditCustomerTest" />
+			<class name="ebankingPracticeTest.EditAccountTest" />
+			<class name="ebankingPracticeTest.DeleteCustomerTest" />
+			<class name="ebankingPracticeTest.DeleteAccountTest" />
+		</classes>
+	</test>
+
+</suite> 

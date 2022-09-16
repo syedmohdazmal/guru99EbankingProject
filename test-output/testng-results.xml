@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-16T16:26:23 IST" name="Suite" finished-at="2022-09-16T16:26:39 IST" duration-ms="15996">
+    <groups>
+    </groups>
+    <test started-at="2022-09-16T16:26:23 IST" name="SanityTest" finished-at="2022-09-16T16:26:39 IST" duration-ms="15960">
+      <class name="ebankingPracticeTest.NewAccountTest">
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:ebankingPracticeTest.NewAccountTest@76494737]" started-at="2022-09-16T16:26:23 IST" name="initDriver" finished-at="2022-09-16T16:26:33 IST" duration-ms="10103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="testNewAccountWithInvalidData(java.lang.String,java.lang.String)[pri:1, instance:ebankingPracticeTest.NewAccountTest@76494737]" started-at="2022-09-16T16:26:33 IST" name="testNewAccountWithInvalidData" finished-at="2022-09-16T16:26:38 IST" duration-ms="5071" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr439256]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qApEnum]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNewAccountWithInvalidData -->
+        <test-method signature="testNewAccountWithValidData(java.lang.String,java.lang.String)[pri:2, instance:ebankingPracticeTest.NewAccountTest@76494737]" started-at="2022-09-16T16:26:38 IST" name="testNewAccountWithValidData" finished-at="2022-09-16T16:26:39 IST" duration-ms="732" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr439256]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qApEnum]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNewAccountWithValidData -->
+      </class> <!-- ebankingPracticeTest.NewAccountTest -->
+    </test> <!-- SanityTest -->
+    <test started-at="2022-09-16T16:26:39 IST" name="RegressionTest" finished-at="2022-09-16T16:26:39 IST" duration-ms="2">
+    </test> <!-- RegressionTest -->
+  </suite> <!-- Suite -->
+</testng-results>
