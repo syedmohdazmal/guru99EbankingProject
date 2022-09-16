@@ -62,7 +62,7 @@ public class EBankingBaseTest {
 			
 		}
 		
-		driver.get("https://demo.guru99.com/V4/index.php");
+		driver.get(testData.getProperty("url"));
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
 		driver.manage().deleteAllCookies();
