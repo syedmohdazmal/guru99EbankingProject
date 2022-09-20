@@ -7,12 +7,13 @@
   <parameter name="managerid" value="mngr439256"/>
   <test thread-count="5" name="SanityTest(failed)">
     <classes>
-      <class name="ebankingPracticeTest.NewAccountTest">
+      <class name="ebankingPracticeTest.DepositTest">
         <methods>
           <include name="initDriver"/>
-          <include name="testNewAccountWithInvalidData" invocation-numbers="0"/>
+          <include name="testDepositWithValidData" invocation-numbers="0"/>
+          <include name="quitDriver"/>
         </methods>
-      </class> <!-- ebankingPracticeTest.NewAccountTest -->
+      </class> <!-- ebankingPracticeTest.DepositTest -->
     </classes>
   </test> <!-- SanityTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

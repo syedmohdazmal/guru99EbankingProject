@@ -70,7 +70,7 @@ public class EBankingBaseTest {
 
 	}
 
-	//@AfterClass
+	@AfterClass
 	public void quitDriver() {
 		logger.info("Starting of quit driver method");
 		driver.quit();
