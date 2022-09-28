@@ -8,10 +8,10 @@
 	
 	<test thread-count="5" name="SanityTest">
 		<classes>
-			<!-- <class name="ebankingLoginTest.EBankingLoginTest" />
+			<class name="ebankingLoginTest.EBankingLoginTest" />
 			<class name="ebankingPracticeTest.AddNewCustomerTest" />
 			<class name="ebankingPracticeTest.NewAccountTest" />
-			<class name="ebankingPracticeTest.WithdrawalTest" /> -->
+			<class name="ebankingPracticeTest.WithdrawalTest" />
 			<class name="ebankingPracticeTest.DepositTest" />
 			<class name="ebankingPracticeTest.FundTransferTest" />
 		</classes>

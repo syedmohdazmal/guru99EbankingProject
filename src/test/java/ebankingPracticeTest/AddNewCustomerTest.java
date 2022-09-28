@@ -9,11 +9,13 @@ import org.testng.annotations.Test;
 import ebankingLoginPage.EBankingLoginPage;
 import ebankingLoginTest.EBankingBaseTest;
 import ebankingPracticePage.AddNewCustomerPage;
+import ebankingPracticePage.EBankingLogoutPage;
 
 public class AddNewCustomerTest extends EBankingBaseTest {
 	private static final Logger logger=Logger.getLogger(AddNewCustomerTest.class.getName());
-	AddNewCustomerPage addNewCustomerPage;
-	EBankingLoginPage loginPage;
+	protected AddNewCustomerPage addNewCustomerPage;
+	protected EBankingLoginPage loginPage;
+	protected EBankingLogoutPage logOutPage;
 	
 	public AddNewCustomerTest()
 {
@@ -44,6 +46,7 @@ public void testAddNewCustomerFieldsWithValidDetails(String uid,String password)
 		addNewCustomerPage.setEmail(testData.getProperty("email"));
 		addNewCustomerPage.setCustomerPassword(testData.getProperty("customer.password"));
 		addNewCustomerPage.clickOnSubmitButton();
+		driver.switchTo().alert().accept();
 		
 	}
 	catch(Exception e) {
@@ -51,6 +54,24 @@ public void testAddNewCustomerFieldsWithValidDetails(String uid,String password)
 		
 	}
 	logger.info("Ending of testAddNewCustomerFieldsWithValidDetails method");
+
+}
+
+//@Test(priority=2)
+public void testLogoutFromAccount()
+{
+	logger.info("Starting of testLogoutFromAccount method");
+	
+	try {
+		logOutPage=new EBankingLogoutPage(driver);
+		logOutPage.clickOnLogoutLink();
+		
+	}
+	catch(Exception e) {
+		Assert.fail("Exception accured white testing testLogoutFromAccount:" + e.getMessage());
+		
+	}
+	logger.info("Ending of testLogoutFromAccount method");
 
 }
 }
