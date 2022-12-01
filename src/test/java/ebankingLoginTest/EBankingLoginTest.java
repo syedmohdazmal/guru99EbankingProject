@@ -9,10 +9,12 @@ import org.testng.annotations.Test;
 import com.beust.jcommander.Parameter;
 
 import ebankingLoginPage.EBankingLoginPage;
+import ebankingPracticePage.EBankingLogoutPage;
 
 public class EBankingLoginTest extends EBankingBaseTest{
 	private static Logger logger=Logger.getLogger("EBankingLoginTest.class.getName()");
 	EBankingLoginPage loginPage;
+	EBankingLogoutPage logOutPage;
 	public EBankingLoginTest()
 	{
 		super();
@@ -58,6 +60,24 @@ public class EBankingLoginTest extends EBankingBaseTest{
 		}
 		logger.info("Starting of testResetUserIdAndpassword method");
 		
+	}
+	
+	@Test(priority=3)
+	public void testLogoutFromAccount()
+	{
+		logger.info("Starting of testLogoutFromAccount method");
+		
+		try {
+			logOutPage=new EBankingLogoutPage(driver);
+			logOutPage.clickOnLogoutLink();
+			
+		}
+		catch(Exception e) {
+			Assert.fail("Exception accured white testing testLogoutFromAccount:" + e.getMessage());
+			
+		}
+		logger.info("Ending of testLogoutFromAccount method");
+
 	}
 
 }

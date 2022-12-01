@@ -12,8 +12,11 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
 
+import ebankingPracticePage.EBankingLogoutPage;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class EBankingBaseTest {
@@ -21,6 +24,7 @@ public class EBankingBaseTest {
 	protected WebDriver driver;
 	protected Properties testData;
 	protected Properties expectedAssertion;
+	protected EBankingLogoutPage logOutPage;
 
 	public EBankingBaseTest() {
 		logger.info("Starting of EBankingBaseTest constructor");
