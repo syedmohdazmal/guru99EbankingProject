@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-20T17:58:20 IST" name="Suite" finished-at="2022-09-20T17:59:14 IST" duration-ms="53449">
+  <suite started-at="2022-09-28T17:28:08 IST" name="Suite" finished-at="2022-09-28T17:29:04 IST" duration-ms="55341">
     <groups>
     </groups>
-    <test started-at="2022-09-20T17:58:20 IST" name="SanityTest" finished-at="2022-09-20T17:59:14 IST" duration-ms="53427">
+    <test started-at="2022-09-28T17:28:08 IST" name="SanityTest" finished-at="2022-09-28T17:29:04 IST" duration-ms="55323">
       <class name="ebankingLoginTest.EBankingLoginTest">
-        <test-method is-config="true" signature="initDriver()[pri:0, instance:ebankingLoginTest.EBankingLoginTest@792b749c]" started-at="2022-09-20T17:58:20 IST" name="initDriver" finished-at="2022-09-20T17:58:28 IST" duration-ms="7839" status="PASS">
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:ebankingLoginTest.EBankingLoginTest@792b749c]" started-at="2022-09-28T17:28:08 IST" name="initDriver" finished-at="2022-09-28T17:28:16 IST" duration-ms="7481" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method signature="testResetUserIdAndpassword(java.lang.String,java.lang.String)[pri:1, instance:ebankingLoginTest.EBankingLoginTest@792b749c]" started-at="2022-09-20T17:58:28 IST" name="testResetUserIdAndpassword" finished-at="2022-09-20T17:58:28 IST" duration-ms="438" status="PASS">
+        <test-method signature="testResetUserIdAndpassword(java.lang.String,java.lang.String)[pri:1, instance:ebankingLoginTest.EBankingLoginTest@792b749c]" started-at="2022-09-28T17:28:16 IST" name="testResetUserIdAndpassword" finished-at="2022-09-28T17:28:16 IST" duration-ms="383" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testResetUserIdAndpassword -->
-        <test-method signature="testLoginWithValidUserIdAndPassword(java.lang.String,java.lang.String)[pri:2, instance:ebankingLoginTest.EBankingLoginTest@792b749c]" started-at="2022-09-20T17:58:28 IST" name="testLoginWithValidUserIdAndPassword" finished-at="2022-09-20T17:58:31 IST" duration-ms="2617" status="PASS">
+        <test-method signature="testLoginWithValidUserIdAndPassword(java.lang.String,java.lang.String)[pri:2, instance:ebankingLoginTest.EBankingLoginTest@792b749c]" started-at="2022-09-28T17:28:16 IST" name="testLoginWithValidUserIdAndPassword" finished-at="2022-09-28T17:28:18 IST" duration-ms="1978" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -43,21 +43,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginWithValidUserIdAndPassword -->
-        <test-method signature="testLogoutFromAccount()[pri:3, instance:ebankingLoginTest.EBankingLoginTest@792b749c]" started-at="2022-09-20T17:58:31 IST" name="testLogoutFromAccount" finished-at="2022-09-20T17:58:32 IST" duration-ms="791" status="PASS">
+        <test-method signature="testLogoutFromAccount()[pri:3, instance:ebankingLoginTest.EBankingLoginTest@792b749c]" started-at="2022-09-28T17:28:18 IST" name="testLogoutFromAccount" finished-at="2022-09-28T17:28:19 IST" duration-ms="814" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogoutFromAccount -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:ebankingLoginTest.EBankingLoginTest@792b749c]" started-at="2022-09-20T17:58:32 IST" name="quitDriver" finished-at="2022-09-20T17:58:32 IST" duration-ms="242" status="PASS">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:ebankingLoginTest.EBankingLoginTest@792b749c]" started-at="2022-09-28T17:28:19 IST" name="quitDriver" finished-at="2022-09-28T17:28:19 IST" duration-ms="269" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
       </class> <!-- ebankingLoginTest.EBankingLoginTest -->
       <class name="ebankingPracticeTest.NewAccountTest">
-        <test-method is-config="true" signature="initDriver()[pri:0, instance:ebankingPracticeTest.NewAccountTest@61c4eee0]" started-at="2022-09-20T17:58:45 IST" name="initDriver" finished-at="2022-09-20T17:58:50 IST" duration-ms="5136" status="PASS">
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:ebankingPracticeTest.NewAccountTest@61c4eee0]" started-at="2022-09-28T17:28:34 IST" name="initDriver" finished-at="2022-09-28T17:28:40 IST" duration-ms="5519" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method signature="testNewAccountWithInvalidData(java.lang.String,java.lang.String)[pri:1, instance:ebankingPracticeTest.NewAccountTest@61c4eee0]" started-at="2022-09-20T17:58:50 IST" name="testNewAccountWithInvalidData" finished-at="2022-09-20T17:58:55 IST" duration-ms="4797" status="PASS">
+        <test-method signature="testNewAccountWithInvalidData(java.lang.String,java.lang.String)[pri:1, instance:ebankingPracticeTest.NewAccountTest@61c4eee0]" started-at="2022-09-28T17:28:40 IST" name="testNewAccountWithInvalidData" finished-at="2022-09-28T17:28:44 IST" duration-ms="4714" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -73,7 +73,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNewAccountWithInvalidData -->
-        <test-method signature="testNewAccountWithValidData(java.lang.String,java.lang.String)[pri:2, instance:ebankingPracticeTest.NewAccountTest@61c4eee0]" started-at="2022-09-20T17:58:55 IST" name="testNewAccountWithValidData" finished-at="2022-09-20T17:58:59 IST" duration-ms="3837" status="FAIL">
+        <test-method signature="testNewAccountWithValidData(java.lang.String,java.lang.String)[pri:2, instance:ebankingPracticeTest.NewAccountTest@61c4eee0]" started-at="2022-09-28T17:28:44 IST" name="testNewAccountWithValidData" finished-at="2022-09-28T17:28:48 IST" duration-ms="3299" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -88,10 +88,10 @@
           </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Exception occured while testing testNewAccountWithValidData:[Ljava.lang.StackTraceElement;@59096b66]]>
+              <![CDATA[Exception occured while testing testNewAccountWithValidData:[Ljava.lang.StackTraceElement;@45037e16]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Exception occured while testing testNewAccountWithValidData:[Ljava.lang.StackTraceElement;@59096b66
+              <![CDATA[java.lang.AssertionError: Exception occured while testing testNewAccountWithValidData:[Ljava.lang.StackTraceElement;@45037e16
 at org.testng.Assert.fail(Assert.java:110)
 at ebankingPracticeTest.NewAccountTest.testNewAccountWithValidData(NewAccountTest.java:75)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
@@ -126,17 +126,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNewAccountWithValidData -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:ebankingPracticeTest.NewAccountTest@61c4eee0]" started-at="2022-09-20T17:58:59 IST" name="quitDriver" finished-at="2022-09-20T17:58:59 IST" duration-ms="240" status="PASS">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:ebankingPracticeTest.NewAccountTest@61c4eee0]" started-at="2022-09-28T17:28:48 IST" name="quitDriver" finished-at="2022-09-28T17:28:48 IST" duration-ms="243" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
       </class> <!-- ebankingPracticeTest.NewAccountTest -->
       <class name="ebankingPracticeTest.DepositTest">
-        <test-method is-config="true" signature="initDriver()[pri:0, instance:ebankingPracticeTest.DepositTest@6f10d5b6]" started-at="2022-09-20T17:58:59 IST" name="initDriver" finished-at="2022-09-20T17:59:04 IST" duration-ms="4960" status="PASS">
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:ebankingPracticeTest.DepositTest@6f10d5b6]" started-at="2022-09-28T17:28:48 IST" name="initDriver" finished-at="2022-09-28T17:28:53 IST" duration-ms="5333" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method signature="testDepositWithInvalidData(java.lang.String,java.lang.String)[pri:1, instance:ebankingPracticeTest.DepositTest@6f10d5b6]" started-at="2022-09-20T17:59:04 IST" name="testDepositWithInvalidData" finished-at="2022-09-20T17:59:11 IST" duration-ms="7751" status="PASS">
+        <test-method signature="testDepositWithInvalidData(java.lang.String,java.lang.String)[pri:1, instance:ebankingPracticeTest.DepositTest@6f10d5b6]" started-at="2022-09-28T17:28:53 IST" name="testDepositWithInvalidData" finished-at="2022-09-28T17:29:03 IST" duration-ms="9314" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -152,21 +152,21 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDepositWithInvalidData -->
-        <test-method signature="testDepositWithValidData()[pri:1, instance:ebankingPracticeTest.DepositTest@6f10d5b6]" started-at="2022-09-20T17:59:11 IST" name="testDepositWithValidData" finished-at="2022-09-20T17:59:13 IST" duration-ms="1807" status="PASS">
+        <test-method signature="testDepositWithValidData()[pri:1, instance:ebankingPracticeTest.DepositTest@6f10d5b6]" started-at="2022-09-28T17:29:03 IST" name="testDepositWithValidData" finished-at="2022-09-28T17:29:03 IST" duration-ms="842" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDepositWithValidData -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:ebankingPracticeTest.DepositTest@6f10d5b6]" started-at="2022-09-20T17:59:13 IST" name="quitDriver" finished-at="2022-09-20T17:59:14 IST" duration-ms="244" status="PASS">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:ebankingPracticeTest.DepositTest@6f10d5b6]" started-at="2022-09-28T17:29:03 IST" name="quitDriver" finished-at="2022-09-28T17:29:04 IST" duration-ms="253" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
       </class> <!-- ebankingPracticeTest.DepositTest -->
       <class name="ebankingPracticeTest.AddNewCustomerTest">
-        <test-method is-config="true" signature="initDriver()[pri:0, instance:ebankingPracticeTest.AddNewCustomerTest@35841320]" started-at="2022-09-20T17:58:32 IST" name="initDriver" finished-at="2022-09-20T17:58:37 IST" duration-ms="5104" status="PASS">
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:ebankingPracticeTest.AddNewCustomerTest@35841320]" started-at="2022-09-28T17:28:19 IST" name="initDriver" finished-at="2022-09-28T17:28:25 IST" duration-ms="5483" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method signature="testAddNewCustomerFieldsWithValidDetails(java.lang.String,java.lang.String)[pri:1, instance:ebankingPracticeTest.AddNewCustomerTest@35841320]" started-at="2022-09-20T17:58:37 IST" name="testAddNewCustomerFieldsWithValidDetails" finished-at="2022-09-20T17:58:44 IST" duration-ms="7215" status="PASS">
+        <test-method signature="testAddNewCustomerFieldsWithValidDetails(java.lang.String,java.lang.String)[pri:1, instance:ebankingPracticeTest.AddNewCustomerTest@35841320]" started-at="2022-09-28T17:28:25 IST" name="testAddNewCustomerFieldsWithValidDetails" finished-at="2022-09-28T17:28:34 IST" duration-ms="9037" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -182,13 +182,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddNewCustomerFieldsWithValidDetails -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:ebankingPracticeTest.AddNewCustomerTest@35841320]" started-at="2022-09-20T17:58:44 IST" name="quitDriver" finished-at="2022-09-20T17:58:45 IST" duration-ms="338" status="PASS">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:ebankingPracticeTest.AddNewCustomerTest@35841320]" started-at="2022-09-28T17:28:34 IST" name="quitDriver" finished-at="2022-09-28T17:28:34 IST" duration-ms="284" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
       </class> <!-- ebankingPracticeTest.AddNewCustomerTest -->
     </test> <!-- SanityTest -->
-    <test started-at="2022-09-20T17:59:14 IST" name="RegressionTest" finished-at="2022-09-20T17:59:14 IST" duration-ms="1">
+    <test started-at="2022-09-28T17:29:04 IST" name="RegressionTest" finished-at="2022-09-28T17:29:04 IST" duration-ms="0">
     </test> <!-- RegressionTest -->
   </suite> <!-- Suite -->
 </testng-results>
