@@ -7,10 +7,33 @@
   <parameter name="managerid" value="mngr439256"/>
   <test thread-count="5" name="SanityTest(failed)">
     <classes>
+      <class name="ebankingLoginTest.EBankingLoginTest">
+        <methods>
+          <include name="testLogoutFromAccount"/>
+          <include name="initDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- ebankingLoginTest.EBankingLoginTest -->
+      <class name="ebankingPracticeTest.DepositTest">
+        <methods>
+          <include name="testDepositWithInvalidData" invocation-numbers="0"/>
+          <include name="initDriver"/>
+          <include name="testDepositWithValidData"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- ebankingPracticeTest.DepositTest -->
+      <class name="ebankingPracticeTest.AddNewCustomerTest">
+        <methods>
+          <include name="testAddNewCustomerFieldsWithValidDetails" invocation-numbers="0"/>
+          <include name="initDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- ebankingPracticeTest.AddNewCustomerTest -->
       <class name="ebankingPracticeTest.NewAccountTest">
         <methods>
           <include name="testNewAccountWithValidData" invocation-numbers="0"/>
           <include name="initDriver"/>
+          <include name="testNewAccountWithInvalidData" invocation-numbers="0"/>
           <include name="quitDriver"/>
         </methods>
       </class> <!-- ebankingPracticeTest.NewAccountTest -->

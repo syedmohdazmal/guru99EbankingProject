@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>SanityTest</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>7/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/6/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Sep 28 17:28:08 IST 2022</td>
+<td>Started on:</td><td>Sat Dec 24 11:47:21 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>55 seconds (55323 ms)</td>
+<tr><td>Total time:</td><td>49 seconds (49811 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,12 +76,194 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='ebankingPracticeTest.AddNewCustomerTest.testAddNewCustomerFieldsWithValidDetails()'><b>testAddNewCustomerFieldsWithValidDetails</b><br>Test class: ebankingPracticeTest.AddNewCustomerTest<br>Parameters: mngr439256, qApEnum</td>
+<td><div><pre>java.lang.AssertionError: Exception accured white testing testAddNewCustomerFieldsWithValidDetails:[Ljava.lang.StackTraceElement;@6909f6be
+	at ebankingPracticeTest.AddNewCustomerTest.testAddNewCustomerFieldsWithValidDetails(AddNewCustomerTest.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace51757185", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace51757185'><pre>java.lang.AssertionError: Exception accured white testing testAddNewCustomerFieldsWithValidDetails:[Ljava.lang.StackTraceElement;@6909f6be
+	at org.testng.Assert.fail(Assert.java:110)
+	at ebankingPracticeTest.AddNewCustomerTest.testAddNewCustomerFieldsWithValidDetails(AddNewCustomerTest.java:53)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>ebankingPracticeTest.AddNewCustomerTest@35841320</td></tr>
+<tr>
+<td title='ebankingPracticeTest.DepositTest.testDepositWithInvalidData()'><b>testDepositWithInvalidData</b><br>Test class: ebankingPracticeTest.DepositTest<br>Parameters: mngr439256, qApEnum</td>
+<td><div><pre>java.lang.AssertionError: Exception while testing testDepositWithInvalidData:unexpected alert open: {Alert text : User or Password is not valid}
+  (Session info: chrome=108.0.5359.125): User or Password is not valid
+Build info: version: &apos;4.2.2&apos;, revision: &apos;683ccb65d6&apos;
+System info: host: &apos;AZMAL&apos;, ip: &apos;192.168.0.101&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bc410da9f5283c04859816e25ec222bd, findElement {using=xpath, value=//a[text()=&apos;Deposit&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\syedm\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63219}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63219/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bc410da9f5283c04859816e25ec222bd
+	at ebankingPracticeTest.DepositTest.testDepositWithInvalidData(DepositTest.java:47)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1476985549", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1476985549'><pre>java.lang.AssertionError: Exception while testing testDepositWithInvalidData:unexpected alert open: {Alert text : User or Password is not valid}
+  (Session info: chrome=108.0.5359.125): User or Password is not valid
+Build info: version: &apos;4.2.2&apos;, revision: &apos;683ccb65d6&apos;
+System info: host: &apos;AZMAL&apos;, ip: &apos;192.168.0.101&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bc410da9f5283c04859816e25ec222bd, findElement {using=xpath, value=//a[text()=&apos;Deposit&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\syedm\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63219}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63219/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bc410da9f5283c04859816e25ec222bd
+	at org.testng.Assert.fail(Assert.java:110)
+	at ebankingPracticeTest.DepositTest.testDepositWithInvalidData(DepositTest.java:47)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>ebankingPracticeTest.DepositTest@6f10d5b6</td></tr>
+<tr>
+<td title='ebankingPracticeTest.NewAccountTest.testNewAccountWithInvalidData()'><b>testNewAccountWithInvalidData</b><br>Test class: ebankingPracticeTest.NewAccountTest<br>Parameters: mngr439256, qApEnum</td>
+<td><div><pre>java.lang.AssertionError: Exception occured while testing testNewAccountWithInvalidData:[Ljava.lang.StackTraceElement;@184823ed
+	at ebankingPracticeTest.NewAccountTest.testNewAccountWithInvalidData(NewAccountTest.java:47)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1017203956", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1017203956'><pre>java.lang.AssertionError: Exception occured while testing testNewAccountWithInvalidData:[Ljava.lang.StackTraceElement;@184823ed
+	at org.testng.Assert.fail(Assert.java:110)
+	at ebankingPracticeTest.NewAccountTest.testNewAccountWithInvalidData(NewAccountTest.java:47)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>ebankingPracticeTest.NewAccountTest@61c4eee0</td></tr>
+<tr>
+<td title='ebankingPracticeTest.DepositTest.testDepositWithValidData()'><b>testDepositWithValidData</b><br>Test class: ebankingPracticeTest.DepositTest</td>
+<td><div><pre>java.lang.AssertionError: Exception while testing testDepositWithValidData:no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@name=&apos;accountno&apos;]&quot;}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.2.2&apos;, revision: &apos;683ccb65d6&apos;
+System info: host: &apos;AZMAL&apos;, ip: &apos;192.168.0.101&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bc410da9f5283c04859816e25ec222bd, findElement {using=xpath, value=//input[@name=&apos;accountno&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\syedm\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63219}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63219/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bc410da9f5283c04859816e25ec222bd
+	at ebankingPracticeTest.DepositTest.testDepositWithValidData(DepositTest.java:65)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1592618491", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1592618491'><pre>java.lang.AssertionError: Exception while testing testDepositWithValidData:no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@name=&apos;accountno&apos;]&quot;}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.2.2&apos;, revision: &apos;683ccb65d6&apos;
+System info: host: &apos;AZMAL&apos;, ip: &apos;192.168.0.101&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bc410da9f5283c04859816e25ec222bd, findElement {using=xpath, value=//input[@name=&apos;accountno&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\syedm\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63219}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63219/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bc410da9f5283c04859816e25ec222bd
+	at org.testng.Assert.fail(Assert.java:110)
+	at ebankingPracticeTest.DepositTest.testDepositWithValidData(DepositTest.java:65)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>6</td>
+<td>ebankingPracticeTest.DepositTest@6f10d5b6</td></tr>
+<tr>
 <td title='ebankingPracticeTest.NewAccountTest.testNewAccountWithValidData()'><b>testNewAccountWithValidData</b><br>Test class: ebankingPracticeTest.NewAccountTest<br>Parameters: mngr439256, qApEnum</td>
-<td><div><pre>java.lang.AssertionError: Exception occured while testing testNewAccountWithValidData:[Ljava.lang.StackTraceElement;@45037e16
+<td><div><pre>java.lang.AssertionError: Exception occured while testing testNewAccountWithValidData:[Ljava.lang.StackTraceElement;@5aa62ee7
 	at ebankingPracticeTest.NewAccountTest.testNewAccountWithValidData(NewAccountTest.java:75)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace588503940", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace588503940'><pre>java.lang.AssertionError: Exception occured while testing testNewAccountWithValidData:[Ljava.lang.StackTraceElement;@45037e16
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1017050857", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1017050857'><pre>java.lang.AssertionError: Exception occured while testing testNewAccountWithValidData:[Ljava.lang.StackTraceElement;@5aa62ee7
 	at org.testng.Assert.fail(Assert.java:110)
 	at ebankingPracticeTest.NewAccountTest.testNewAccountWithValidData(NewAccountTest.java:75)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
@@ -111,8 +293,60 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>3</td>
+<td>8</td>
 <td>ebankingPracticeTest.NewAccountTest@61c4eee0</td></tr>
+<tr>
+<td title='ebankingLoginTest.EBankingLoginTest.testLogoutFromAccount()'><b>testLogoutFromAccount</b><br>Test class: ebankingLoginTest.EBankingLoginTest</td>
+<td><div><pre>java.lang.AssertionError: Exception accured white testing testLogoutFromAccount:unexpected alert open: {Alert text : User or Password is not valid}
+  (Session info: chrome=108.0.5359.125): User or Password is not valid
+Build info: version: &apos;4.2.2&apos;, revision: &apos;683ccb65d6&apos;
+System info: host: &apos;AZMAL&apos;, ip: &apos;192.168.0.101&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [19592f431b545e7e038bf07daa0f46d7, findElement {using=xpath, value=//a[text()=&apos;Log out&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\syedm\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62953}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62953/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 19592f431b545e7e038bf07daa0f46d7
+	at ebankingLoginTest.EBankingLoginTest.testLogoutFromAccount(EBankingLoginTest.java:76)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace145122075", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace145122075'><pre>java.lang.AssertionError: Exception accured white testing testLogoutFromAccount:unexpected alert open: {Alert text : User or Password is not valid}
+  (Session info: chrome=108.0.5359.125): User or Password is not valid
+Build info: version: &apos;4.2.2&apos;, revision: &apos;683ccb65d6&apos;
+System info: host: &apos;AZMAL&apos;, ip: &apos;192.168.0.101&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [19592f431b545e7e038bf07daa0f46d7, findElement {using=xpath, value=//a[text()=&apos;Log out&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\syedm\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62953}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62953/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 19592f431b545e7e038bf07daa0f46d7
+	at org.testng.Assert.fail(Assert.java:110)
+	at ebankingLoginTest.EBankingLoginTest.testLogoutFromAccount(EBankingLoginTest.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>ebankingLoginTest.EBankingLoginTest@792b749c</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -123,40 +357,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='ebankingLoginTest.EBankingLoginTest.testLogoutFromAccount()'><b>testLogoutFromAccount</b><br>Test class: ebankingLoginTest.EBankingLoginTest</td>
-<td></td>
-<td>0</td>
-<td>ebankingLoginTest.EBankingLoginTest@792b749c</td></tr>
-<tr>
-<td title='ebankingPracticeTest.NewAccountTest.testNewAccountWithInvalidData()'><b>testNewAccountWithInvalidData</b><br>Test class: ebankingPracticeTest.NewAccountTest<br>Parameters: mngr439256, qApEnum</td>
-<td></td>
-<td>4</td>
-<td>ebankingPracticeTest.NewAccountTest@61c4eee0</td></tr>
-<tr>
-<td title='ebankingPracticeTest.DepositTest.testDepositWithInvalidData()'><b>testDepositWithInvalidData</b><br>Test class: ebankingPracticeTest.DepositTest<br>Parameters: mngr439256, qApEnum</td>
-<td></td>
-<td>9</td>
-<td>ebankingPracticeTest.DepositTest@6f10d5b6</td></tr>
-<tr>
-<td title='ebankingLoginTest.EBankingLoginTest.testLoginWithValidUserIdAndPassword()'><b>testLoginWithValidUserIdAndPassword</b><br>Test class: ebankingLoginTest.EBankingLoginTest<br>Parameters: mngr439256, qApEnum</td>
+<td title='ebankingLoginTest.EBankingLoginTest.testResetUserIdAndpassword()'><b>testResetUserIdAndpassword</b><br>Test class: ebankingLoginTest.EBankingLoginTest<br>Parameters: mngr4392563738, qApEnumrtvvf</td>
 <td></td>
 <td>1</td>
 <td>ebankingLoginTest.EBankingLoginTest@792b749c</td></tr>
 <tr>
-<td title='ebankingLoginTest.EBankingLoginTest.testResetUserIdAndpassword()'><b>testResetUserIdAndpassword</b><br>Test class: ebankingLoginTest.EBankingLoginTest<br>Parameters: mngr4392563738, qApEnumrtvvf</td>
+<td title='ebankingLoginTest.EBankingLoginTest.testLoginWithValidUserIdAndPassword()'><b>testLoginWithValidUserIdAndPassword</b><br>Test class: ebankingLoginTest.EBankingLoginTest<br>Parameters: mngr439256, qApEnum</td>
 <td></td>
 <td>0</td>
 <td>ebankingLoginTest.EBankingLoginTest@792b749c</td></tr>
-<tr>
-<td title='ebankingPracticeTest.AddNewCustomerTest.testAddNewCustomerFieldsWithValidDetails()'><b>testAddNewCustomerFieldsWithValidDetails</b><br>Test class: ebankingPracticeTest.AddNewCustomerTest<br>Parameters: mngr439256, qApEnum</td>
-<td></td>
-<td>9</td>
-<td>ebankingPracticeTest.AddNewCustomerTest@35841320</td></tr>
-<tr>
-<td title='ebankingPracticeTest.DepositTest.testDepositWithValidData()'><b>testDepositWithValidData</b><br>Test class: ebankingPracticeTest.DepositTest</td>
-<td></td>
-<td>0</td>
-<td>ebankingPracticeTest.DepositTest@6f10d5b6</td></tr>
 </table><p>
 </body>
 </html>
